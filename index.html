@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Página Personal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#presentacion">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="mi-cv.pdf" download>Descargar CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Secciones -->
+  <section id="presentacion">
+    <h1>¡Hola! Soy Tu Nombre</h1>
+    <p>Soy estudiante y desarrollador web junior. Me apasiona crear sitios web modernos y funcionales.</p>
+    <img src="images/tu-foto.jpg" alt="Mi foto" style="max-width: 200px; border-radius: 50%;">
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Me encanta aprender nuevas tecnologías y siempre estoy buscando mejorar mis habilidades. Soy responsable, creativo y disfruto trabajar en equipo.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>✅ HTML & CSS</li>
+      <li>✅ JavaScript</li>
+      <li>✅ Tailwind CSS</li>
+      <li>✅ Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div>
+      <h3>Mi Primer Proyecto</h3>
+      <p>Un sitio web simple con HTML y CSS.</p>
+      <a href="https://github.com/tuusuario/mi-proyecto">Ver en GitHub</a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="https://formspree.io/f/tu_id_formspree" method="POST">
+      <input type="text" name="name" placeholder="Tu nombre" required><br>
+      <input type="email" name="email" placeholder="Tu correo" required><br>
+      <textarea name="message" placeholder="Tu mensaje" required></textarea><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tu Nombre. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
